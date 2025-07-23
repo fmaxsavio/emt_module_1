@@ -23,6 +23,7 @@ let foodYCoordinate = [];
 let correctFood = { x: 15, y: 15, type: "" };
 let isGameEnded = false;
 let timer = null;
+let isShuffled = false;
 let attended = 0;
 let right = 0;
 let wrong = 0;
@@ -338,6 +339,9 @@ function updateGoogleSheet(name, score) {
     });
 }
 function shuffleArray(array) {
+  if (isShuffled){
+    return array;
+  }
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
