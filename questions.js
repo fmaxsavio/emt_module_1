@@ -1,57 +1,52 @@
 const questions = [
   {
-    q: "The types of source given the the circuit are?",
-    options: ["AC and DC voltage", "DC voltage and current", "AC voltage and current", "Only DC source"],
+    q: "Divergence of a vector field represents:",
+    options: ["Rotational strength", "Magnitude of field", "Rate of outward flux per unit volume", "Field intensity"],
+    answer: 2,
+  },
+  {
+    q: "Curl of a vector field gives:",
+    options: ["Rate of outward flux", "Rotational tendency", "Magnitude only", "Surface integral"],
     answer: 1,
   },
   {
-    q: "The number of split circuits are?",
-    options: ["None", "1", "2", "3"],
-    answer: 2,
-  },
-  {
-    q: "In this problem current in branches can be easily found using?",
-    options: ["Ohm's law", "Kirchhoff's law", "Current division rule", "voltage division rule"],
-    answer: 2,
-  },
-  {
-    q: "The resistance in the branch of (I1)' and (I2)' are?",
-    options: ["10,30", "30,10", "10,20", "20,10"],
+    q: "If divergence of a vector field is zero, the field is:",
+    options: ["Solenoidal", "Irrotational", "Uniform", "Constant"],
     answer: 0,
   },
   {
-    q: "The resistance of the brach of the current (I2)' is in",
-    options: ["Series", "isolated", "parallel", "open circuited"],
+    q: "Which operation checks if a vector field is conservative?",
+    options: ["Divergence", "Gradient", "Curl", "Laplace"],
     answer: 2,
   },
   {
-    q: "The resistance in the branch of (I2)'' and (I3)'' are?",
-    options: ["10.33, 20", "20,10.33", "33.33,20", "20,33.33"],
+    q: "Which equation represents Gauss’s law in differential form?",
+    options: ["div E = ρ/ε", "curl E = 0", "grad V = -E", "curl B = μJ"],
     answer: 0,
   },
   {
-    q: "The value of (I2)' is",
-    options: ["1.4", "0.4", "0.2", "1.2"],
-    answer: 1,
+    q: "If curl of a field is zero, it is called:",
+    options: ["Solenoidal", "Irrotational", "Rotational", "Divergent"],
+    answer: 1.
   },
   {
-    q: "The value of (I2)'' is",
-    options: ["1.4", "2.4", "3.4", "4.4"],
-    answer: 1,
+    q: "Which of the following has zero divergence and zero curl?",
+    options: ["Uniform electric field", "Magnetic field", "Rotating fluid", "Static pressure field"],
+    answer: 0,
   },
   {
-    q: "The total current through the 10 Ohm resistor is?",
-    options: ["0.4", "0.6", "0.8", "1.0"],
+    q: "Which field's behavior is best described by curl?",
+    options: ["Static electric field", "Gravitational field", "Magnetic field around a wire", "Pressure field"],
     answer: 2,
   },
   {
-    q: "The current (I2)' and (I2)'' are in",
-    options: ["Same direction", "Opposite direction", "Cannot be determined", "information missing"],
+    q: "Which theorem uses divergence to relate volume and surface integrals?",
+    options: ["Stoke’s Theorem", "Gauss’s Theorem", "Pythagorean Theorem", "Lenz’s Law"],
     answer: 1,
   },
   {
-    q: "The direction of the current in the 10 Ohm resistance is in the direction of?",
-    options: ["current from 20 V source", "same as 4 A source", "cannot be determined", "information missing"],
+    q: "The curl of a gradient of any scalar field is:",
+    options: ["Same field", "Zero", "Non-zero constant", "Undefined"],
     answer: 1,
-  },
-  ]
+  }, 
+]
